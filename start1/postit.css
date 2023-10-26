@@ -31,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   transform: rotate(10deg);
-  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 1, 0.2);
 }
 
 .post-it3 {
@@ -43,7 +43,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: rotate(-5 deg);
+  transform: rotate(2deg);
   transform-origin: center;
   box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -53,7 +53,7 @@ h3 {
 }
 
 .post-it:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   z-index: 2;
 
   transition: transform 0.3s ease-in-out;
